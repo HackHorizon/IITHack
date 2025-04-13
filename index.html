@@ -1,0 +1,250 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>IIT Hack - Pentesting Services</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Inter', sans-serif;
+    }
+    body {
+      background-color: #0d0d0d;
+      color: #ffffff;
+      line-height: 1.6;
+      scroll-behavior: smooth;
+    }
+    header {
+      background-color: #1a1a1a;
+      padding: 20px;
+      text-align: center;
+      border-bottom: 2px solid #ff2a2a;
+    }
+    .logo-container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      animation: fadeIn 1s ease-out forwards;
+    }
+    .logo-container img {
+      height: 50px;
+      width: 50px;
+    }
+    .logo-container h1 {
+      font-size: 2.5rem;
+      color: #f8f6f6;
+    }
+    .hero {
+      padding: 60px 20px;
+      text-align: center;
+      animation: fadeIn 1.5s ease-out forwards;
+    }
+    .hero h2 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+    }
+    .hero p {
+      font-size: 1.2rem;
+      color: #ccc;
+    }
+    .cta {
+      margin-top: 30px;
+    }
+    .cta a {
+      display: inline-block;
+      padding: 10px 25px;
+      background-color: #ff2a2a;
+      color: #ffffff;
+      border-radius: 8px;
+      font-weight: bold;
+      text-decoration: none;
+      transition: background-color 0.3s ease, transform 0.3s ease;
+    }
+    .cta a:hover {
+      background-color: #e60000;
+      transform: scale(1.05);
+    }
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 30px;
+      padding: 40px 20px;
+      background-color: #1a1a1a;
+    }
+    .card {
+      background-color: #121212;
+      border: 1px solid #ff2a2a44;
+      border-radius: 12px;
+      padding: 20px;
+      transition: all 0.3s ease-in-out;
+      transform: scale(1);
+    }
+    .card:hover {
+      border-color: #ff2a2a;
+      box-shadow: 0 0 20px #ff2a2a88;
+      transform: scale(1.05);
+    }
+    .card h3 {
+      color: #ff2a2a;
+      margin-bottom: 10px;
+      font-size: 1.4rem;
+    }
+    .card p {
+      color: #ccc;
+      font-size: 1rem;
+    }
+    .footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #1a1a1a;
+      color: #999;
+      border-top: 2px solid #ff2a2a;
+    }
+    .section {
+      padding: 40px 20px;
+      background-color: #0d0d0d;
+    }
+    .section h2 {
+      text-align: center;
+      color: #ff2a2a;
+      margin-bottom: 20px;
+    }
+    .section p {
+      max-width: 900px;
+      margin: 0 auto;
+      font-size: 1.1rem;
+      color: #ccc;
+      line-height: 1.8;
+    }
+    .methodology {
+      padding: 40px 20px;
+      background-color: #1a1a1a;
+    }
+    .methodology h2 {
+      text-align: center;
+      color: #ff2a2a;
+      margin-bottom: 20px;
+    }
+    .methodology p {
+      text-align: center;
+      max-width: 900px;
+      margin: 10px auto 30px;
+      color: #ccc;
+    }
+    .methodology-content {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 30px;
+    }
+    .methodology-content div {
+      background-color: #121212;
+      padding: 20px;
+      border-radius: 10px;
+      border: 1px solid #ff2a2a44;
+    }
+    .methodology-content h3 {
+      color: #ff2a2a;
+      margin-bottom: 10px;
+    }
+    .methodology-content p {
+      color: #ccc;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(-20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo-container">
+      <img src="Logo_Without_bg.png" alt="IIT Hack Logo" />
+      <h1>IIT Hack</h1>
+    </div>
+  </header>
+
+  <section class="hero">
+    <h2>Elite-Grade Pentesting, Startup Prices</h2>
+    <p>Secure your Web Apps, APIs, Infra, Mobile, and LLMs for just ₹2,000 to ₹10,000</p>
+    <section style="display: flex; justify-content: center; gap: 20px; align-items: center; margin-top: 20px;">
+      <div class="cta">
+        <a href="#services">Explore Services</a>
+      </div>
+      <div class="cta">
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSdkdXZnNmYjlmt603YGQ-uKt_L8LnzFS-qdPFYbR6Hf0u7Vkw/viewform?usp=header">Contact Us</a>
+      </div>
+    </section>
+  </section>
+
+  <section id="services" class="services">
+    <div class="card">
+      <h3>Web App Pentesting</h3>
+      <p>Comprehensive OWASP Top 10 testing with manual & automated assessments. ₹2,000–₹6,000</p>
+    </div>
+    <div class="card">
+      <h3>API Security Testing</h3>
+      <p>Secure your APIs from BOLA, rate-limiting bypasses, and injection flaws. ₹2,000–₹5,000</p>
+    </div>
+    <div class="card">
+      <h3>Infrastructure Pentesting</h3>
+      <p>Internal/External testing for networks, servers, and cloud setups. ₹3,000–₹10,000</p>
+    </div>
+    <div class="card">
+      <h3>Android/iOS Pentesting</h3>
+      <p>Dynamic, static, and traffic analysis of mobile apps. ₹4,000–₹10,000</p>
+    </div>
+    <div class="card">
+      <h3>Thick Client Pentesting</h3>
+      <p>Reverse engineering and binary analysis of desktop apps. ₹5,000–₹10,000</p>
+    </div>
+    <div class="card">
+      <h3>LLM Pentesting</h3>
+      <p>Prompt injection, jailbreaks, and AI misuse testing. ₹4,000–₹10,000</p>
+    </div>
+  </section>
+
+  <section class="section" id="why">
+    <h2>Why Choose IIT Hack?</h2>
+    <p>
+      At IIT Hack, we specialize in advanced penetration testing services tailored for startups, enterprises, and individuals. Our team combines manual expertise with industry-grade tools to uncover vulnerabilities across web, mobile, infrastructure, and AI systems. Whether you're launching your MVP, preparing for a funding round, or want regular compliance checks — our affordable, in-depth services ensure you're ahead of attackers.
+      <br /><br />
+      We strictly follow OWASP methodologies, provide detailed technical reports with remediation steps, and support continuous security improvement. IIT Hack’s team comprises ethical hackers with real-world bug bounty experience, ensuring your systems are tested with the same creativity and intensity as real-world attackers.
+    </p>
+  </section>
+
+  <section class="methodology" id="methodology">
+    <h2>Our Methodology</h2>
+    <p>
+      We follow a rigorous and structured approach to ensure thorough security testing and remediation:
+    </p>
+    <div class="methodology-content">
+      <div>
+        <h3>1. Reconnaissance</h3>
+        <p>Gathering intel from public and private sources to map your attack surface.</p>
+      </div>
+      <div>
+        <h3>2. Vulnerability Assessment</h3>
+        <p>Scanning and identifying issues from the OWASP Top 10 and beyond.</p>
+      </div>
+      <div>
+        <h3>3. Exploitation</h3>
+        <p>Safely simulating attacks to demonstrate the real impact of discovered flaws.</p>
+      </div>
+      <div>
+        <h3>4. Reporting & Remediation</h3>
+        <p>Detailed technical + executive reports and post-assessment support to patch issues.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>&copy; 2025 IIT Hack. All rights reserved.</p>
+  </footer>
+</body>
+</html>
